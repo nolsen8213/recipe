@@ -1,0 +1,48 @@
+@import 'typography.css';
+@import 'utilities.css';
+@import 'typography.css';
+@import 'layout.css';
+@import 'end.css';
+
+/* 
+
+	Put typographic formatting in the typography.css file.
+	Page layout styles go in layout.css.
+
+	In production, do not use imports.
+	Instead, concatenante and minify files. 
+
+*/
+h1 {font-family: 'Libre Baskerville', serif;
+    margin-bottom:30px;
+    color:#db4105;
+}
+
+li {
+    color:#33332d;
+    font-family:'Open Sans Condensed', sans-serif;    
+}
+
+ul {
+    margin-top:40px;
+    margin-bottom:40px;
+}
+
+p{
+   color:#33332d;
+    font-family:'Open Sans Condensed', sans-serif;
+}
+
+.intro {
+    
+    color:#33332d;
+    
+}
+
+img {
+    margin-bottom:30px;
+    padding:2px;
+    border: 1px solid;
+}
+
+
